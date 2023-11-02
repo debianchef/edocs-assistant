@@ -48,7 +48,7 @@ export function constructMetadata({
       creator: "@ichie"
     },
     icons,
-    metadataBase: new URL('https://quill-jet.vercel.app'),
+    metadataBase: new URL('https://edoc-assistant.pro'),
     themeColor: '#FFF',
     ...(noIndex && {
       robots: {

@@ -15,7 +15,7 @@ export async function getUserSubscriptionPlan() {
   if (!user.id) {
     return {
       ...PLANS[0],
-      isSubscribed: false,
+      isSubscribed: true,
       isCanceled: false,
       stripeCurrentPeriodEnd: null,
     }

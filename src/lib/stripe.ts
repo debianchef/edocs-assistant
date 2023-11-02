@@ -29,7 +29,7 @@ export async function getUserSubscriptionPlan() {
 
   if (!dbUser) {
     return {
-      ...PLANS[0],
+      ...PLANS[1],
       isSubscribed: true,
       isCanceled: false,
       stripeCurrentPeriodEnd: null,

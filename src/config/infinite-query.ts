@@ -1,1 +1,1 @@
-export const INFINITE_QUERY_LIMIT = 1000
+export const INFINITE_QUERY_LIMIT = 100

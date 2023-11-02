@@ -35,7 +35,7 @@ export const ChatContextProvider = ({
   children,
 }: Props) => {
   const [message, setMessage] = useState<string>('')
-  const [isLoading, setIsLoading] = useState<boolean>(false)
+  const [isLoading, setIsLoading] = useState<boolean>(true)
 
   const utils = trpc.useContext()
 
